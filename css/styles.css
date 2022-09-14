@@ -204,6 +204,7 @@ span {
 .customer-card {
   padding: 30px;
   margin-bottom: 30px;
+  margin: 1px solid black;
 }
 
 /* quit */
@@ -214,6 +215,7 @@ span {
   top: 90px;
   background-color: #068ff1;
   height: 280px;
+  margin-top: 40px;
 }
 
 .lquit {
@@ -229,6 +231,7 @@ span {
 .lbutton {
   position: relative;
   top: 80px;
+  left: 720px;
   border: 1px solid #fff;
   height: 40px;
   border-radius: 0.3rem;
@@ -277,4 +280,80 @@ span {
 }
 h5 {
   font-weight: normal;
+}
+
+.footer-section {
+  display: flex;
+  margin-top: 12rem;
+  gap: 50px;
+}
+
+.left {
+  margin-left: 2rem;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.right {
+  display: flex;
+  margin-left: 5rem;
+  gap: 50px;
+}
+
+.links,
+.overview {
+  margin-left: 2.5rem;
+}
+
+p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.social-media {
+  width: 100%;
+  margin-left: 3rem;
+}
+.social-Icons {
+  display: flex;
+}
+
+.social-media img {
+  width: 12%;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .custHead {
+    align-items: flex-start;
+    position: absolute;
+    left: 20px;
+  }
+
+  .custP {
+    align-items: flex-start;
+
+    left: 20px;
+  }
+
+  .t2 {
+    font-size: 38px;
+  }
+  .right-section4 > h4 {
+    position: relative;
+    top: 80px;
+    margin-left: 40px;
+  }
+
+  .svg1 {
+    position: relative;
+    left: 90px;
+  }
+
+  .illustration {
+    position: relative;
+    margin-left: -40px;
+  }
 }
